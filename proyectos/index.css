@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  padding: 40px;
+  background-color: #f0f2f5;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+/* Contenedor principal */
+.panel-container {
+  background-color: white;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  max-width: 700px;
+  width: 100%;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+
+.usuario-info h1 {
+  font-family: 'Georgia', serif;
+  font-size: 28px;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.usuario-info span {
+  color: #000000;
+  font-weight: bold;
+}
+
+.rol {
+  font-size: 16px;
+  color: #06170d;
+  margin-bottom: 30px;
+}
+
+/* Título de estadísticas */
+h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Tabla de estadísticas */
+.tabla-estadisticas {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 30px;
+  font-size: 16px;
+}
+
+.tabla-estadisticas th, .tabla-estadisticas td {
+  border: 1px solid #ccc;
+  padding: 12px;
+  text-align: center;
+}
+
+.tabla-estadisticas th {
+  background-color: #fff7f7;
+  font-weight: bold;
+}
+
+/* Navegación */
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #265ba0b7;
+  font-weight: bold;
+  padding: 8px 12px;
+  border-radius: 6px;
+  background-color: #e9ecef;
+  transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #639bd3;
+}
+
+.logout {
+  color: #dc3545;
+  background-color: #f8d7da;
+}
+
+.logout:hover {
+  background-color: #f39fa8;
+}

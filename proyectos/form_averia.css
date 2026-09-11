@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background: linear-gradient(to bottom, #f5e6c8, #efdab1);
+  font-family: 'Segoe UI', sans-serif;
+  display: grid;
+  place-items: center;
+}
+
+.form-wrapper {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+  width: 300px;
+  max-width: 90vw;
+  animation: fadeInUp 0.4s ease-out;
+}
+
+/* Resto del CSS igual */
+
+
+h2 {
+  text-align: center;
+  font-size: 18px;
+  color: #2c3e50;
+  margin-bottom: 16px;
+}
+
+.form-group {
+  margin-bottom: 12px;
+}
+
+label {
+  display: block;
+  font-weight: 500;
+  font-size: 13px;
+  color: #34495e;
+  margin-bottom: 4px;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 7px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 13px;
+  background-color: #fdfdfd;
+  transition: border-color 0.3s ease;
+}
+
+input:focus,
+select:focus {
+  border-color: #0078d7;
+  box-shadow: 0 0 0 2px rgba(0, 120, 215, 0.2);
+  outline: none;
+}
+
+.btn {
+  background-color: #0078d7;
+  color: white;
+  padding: 9px;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #005fa3;
+}
+
+.volver {
+  display: block;
+  margin-top: 12px;
+  color: #0078d7;
+  text-decoration: underline;
+  font-size: 13px;
+  text-align: center;
+  transition: color 0.3s ease;
+}
+
+.volver:hover {
+  color: #005fa3;
+  text-decoration: none;
+}
+
+.mensaje-error {
+  background-color: #fdecea;
+  color: #c62828;
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  text-align: center;
+  font-weight: 500;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

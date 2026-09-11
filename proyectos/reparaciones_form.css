@@ -1,0 +1,116 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f5f5dc;
+  margin: 0;
+  padding: 20px;
+  color: #333333;
+}
+
+.form-container {
+  max-width: 480px;
+  margin: 40px auto;
+  background-color: #ffffff;
+  padding: 20px;
+  border: 1px solid #cccccc;
+  border-radius: 6px;
+  box-shadow: 0 0 6px rgba(0,0,0,0.05);
+  transition: box-shadow 0.3s ease;
+}
+
+.form-container:hover {
+  box-shadow: 0 0 12px rgba(0,0,0,0.1);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 1.3em;
+  font-weight: 500;
+  color: #333333;
+}
+
+form label {
+  display: block;
+  margin-top: 12px;
+  font-size: 0.9em;
+  font-weight: 500;
+  color: #444444;
+  transition: color 0.3s ease;
+}
+
+form input,
+form textarea,
+form select {
+  width: 100%;
+  padding: 7px;
+  margin-top: 4px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  background-color: #fdfdfd;
+  font-size: 0.85em;
+  color: #333333;
+  transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+
+form input:focus,
+form textarea:focus,
+form select:focus {
+  outline: none;
+  border-color: #999999;
+  background-color: #ffffff;
+}
+
+form button {
+  display: block;
+  margin: 20px auto 0 auto;
+  padding: 8px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 0.9em;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+form button:hover {
+  background-color: #0056b3;
+  transform: scale(1.03);
+}
+
+.volver-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.btn-volver {
+  display: inline-block;
+  background-color: #cccccc;
+  color: #333333;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-size: 0.85em;
+  transition: background-color 0.3s ease;
+}
+
+.btn-volver:hover {
+  background-color: #999999;
+}
+
+.mensaje-guardado {
+  margin-top: 20px;
+  text-align: center;
+  color: green;
+  font-weight: 500;
+  font-size: 0.95em;
+}
+
+.mensaje-error {
+  margin-top: 20px;
+  text-align: center;
+  color: red;
+  font-weight: 500;
+  font-size: 0.95em;
+}
